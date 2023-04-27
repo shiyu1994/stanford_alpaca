@@ -27,10 +27,6 @@ import os
 
 from peft import LoraConfig, get_peft_model, prepare_model_for_int8_training
 
-import json
-
-from icecream import ic
-
 IGNORE_INDEX = -100
 DEFAULT_PAD_TOKEN = "[PAD]"
 DEFAULT_EOS_TOKEN = "</s>"
